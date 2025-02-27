@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda avanzada de Google</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="links">
+        <a href="index.html">Búsqueda de Google</a>
+        <a href="images.html">Búsqueda de imágenes</a>
+    </div>
+    <div class="advanced-container">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" class="google-logo" width="120">
+        <h1>Búsqueda avanzada</h1>
+        <form action="https://www.google.com/search" method="GET">
+            <div class="instruction">
+                <label>Mostrar páginas que contengan...</label>
+                <span class="instruction-text">Para hacer esto en el cuadro de búsqueda:</span>
+            </div>
+            <div class="advanced-search">
+                <label>todas estas palabras:</label>
+                <input type="text" name="as_q">
+                <span class="example-text">Ingresa las palabras importantes: Terrier ratonero tricolor.</span>
+            </div>
+            <div class="advanced-search">
+                <label>esta palabra o frase exacta:</label>
+                <input type="text" name="as_epq">
+                <span class="example-text">Ingresa las palabras exactas entre comillas: "Terrier ratonero".</span>
+            </div>
+            <div class="advanced-search">
+                <label>cualquiera de estas palabras:</label>
+                <input type="text" name="as_oq">
+                <span class="example-text">Ingresa OR entre las palabras que desees: En miniatura OR estándar.</span>
+            </div>
+            <div class="advanced-search">
+                <label>ninguna de estas palabras:</label>
+                <input type="text" name="as_eq">
+                <span class="example-text">Ingresa un signo menos justo delante de las palabras que no deseas que aparezcan: -Roedor, -"Jack Russell".</span>
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Búsqueda avanzada" class="advanced-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
